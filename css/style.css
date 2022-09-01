@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-image: url(/img/grisclarito.jpg);
+    background-image: url(../img/grisclarito.jpg);
 }
 /*
 HEADER
@@ -40,7 +40,7 @@ TITULOS
 .home{
     display: flex;
     flex-direction: column;
-    background-image: url(/img/fondo_inicio.png);
+    background-image: url(../img/fondo_inicio.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 200px;
@@ -80,7 +80,7 @@ SOBRE MI
 }
 
 .fondoSeccion{
-    background-image: url(/img/sobre_mi.png);
+    background-image: url(../img/sobre_mi.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10%;
@@ -142,7 +142,7 @@ TECNOLOGIAS
 }
 
 .fondoTech{
-    background-image: url(/img/tecnologias.png);
+    background-image: url(../img/tecnologias.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
