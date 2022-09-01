@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/img/grisclarito.jpg);
+}
+/*
+HEADER
+*/
+
+nav{
+    background-color: #ffeadb;
+    width: 100%;
+    position: fixed;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 15px 5px 1px 5px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ff9a76;
+    font-family: 'Lora', serif;
+}
+
+/*
+TITULOS
+*/
+
+.home{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/fondo_inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+.home h1, h2, h3{
+    padding: 15px;
+    color: #ff9a76;
+    align-items: center;
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+.home h1{
+    padding-top: 50px;
+    margin-top: 200px;
+}
+
+.home h3{
+    margin-bottom: 300px;
+}
+
+
+/*
+SOBRE MI
+*/
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about{
+    margin-top: 10%;
+}
+
+.fondoSeccion{
+    background-image: url(/img/sobre_mi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article .p1{
+    padding-left: 5%;
+    padding-right: 35%;
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    color: #637363;
+}
+
+article .p2{
+    padding-left: 35%;
+    padding-right: 5%;
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    color: #637363;
+    margin-bottom: 15%;
+}
+
+.flecha{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #679b9b;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+
+
+
+/*
+TECNOLOGIAS
+*/
+
+.tecnologias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#technologies{
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+.fondoTech{
+    background-image: url(/img/tecnologias.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tecImg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.tecImg img{
+    width: 100px;
+    padding: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 4%;
+}
+
+
+/*
+TRABAJOS
+*/
+
+.trabajos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#work{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.card-group{
+    margin: 10%;
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Lora', serif;
+    margin-top: 15px;
+    color: #637363;
+}
+
+.card-img-top{
+    width: auto;
+}
+
+
+
+/*
+CONTACTO
+*/
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.row{
+    padding-top: 10px;
+}
+
+input{
+    background-color: #ffeadb;
+}
+
+label{
+    color: #ff9a76;
+    font-family: 'Lora', serif;
+}
+
+textarea{
+    background-color: #ffeadb;
+}
+
+.boton{
+    margin-top: 15px;
+    font-family: 'Lora', serif;
+    background-color: white;
+    color: #637363;
+}
+
+.boton:hover{
+    background-color:#679b9b;
+    color: #fff;
+}
+
+/*
+FOOTER
+*/
+
+footer{
+    background-color: #679b9b;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer .footer1{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+footer .footer1 img{
+    width: 30px;
+    margin-left: 20px;
+}
+
+footer .footer2 a{
+    text-decoration: none;
+    color: #ffeadb;
+    margin-left: 20px;
+}
+
+.mail{
+    margin-bottom: 15px;
+    color: #ffeadb;
+}
