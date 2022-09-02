@@ -387,7 +387,7 @@ footer .footer2 a {
     .menuppal {
         background-color: #ffeadb;
         bottom: 0;
-        height: 23%;
+        height: 35%;
         left: 0;
         overflow-y: scroll;
         position: fixed;
@@ -412,7 +412,7 @@ footer .footer2 a {
         color: red;
         font-size: 1.5rem;
         line-height: 3em;
-        height: 1.5em;
+        height: 2em;
         color: #ff9a76;
         text-transform: none;
         font-weight: bold;
@@ -422,7 +422,7 @@ footer .footer2 a {
     .menuppal ul li a {
         text-decoration: none;
         color: #ff9a76;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .menuppal ul li a:hover {
